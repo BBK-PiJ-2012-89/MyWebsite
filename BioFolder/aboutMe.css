@@ -1,0 +1,24 @@
+body{
+    background-color:black;
+}
+
+p{
+    font-family:Verdana;
+    color:white;
+}
+
+h1{
+    color:red;
+    font-family:Calibri;
+    position:relative;
+    text-align:center;
+    font-size:70;
+}
+
+h2{
+    color: red;
+}
+
+#id{
+    background:blue;
+}

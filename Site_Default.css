@@ -1,0 +1,119 @@
+body {
+    background-color:black;
+}
+
+p {
+    color:#C0C0C0;
+    font-family:verdana;
+}
+
+span {
+    background-color:gray;
+    display:inline;
+}
+
+h1 {
+    text-shadow: 0 1px 1px #4d4d4d;
+    color: #222;
+    font: 30px'LeagueGothicRegular';
+    text-align:center;
+    background: orange;
+    position:relative;
+}
+
+.circleBase {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+}
+
+li a:hover {
+    text-decoration:underline;
+    color:white;
+}
+
+li a {
+    list-style:none;
+    text-decoration:none;
+    font: 15px Verdana;
+    color:white;
+}
+
+div {
+    position:relative;
+}
+
+span {
+    position:relative;
+}
+
+#topList {
+    margin-left:0;
+    padding: 0;
+    color:white;
+    list-style-type: none;
+    text-align: justify;
+    height: 21px;
+}
+
+#topList > li {
+    margin-left:0;
+    width:24%;
+    vertical-align: top;
+    background:gray;
+    position: static;
+    display:inline-block;
+    text-align: center;
+    border:1px solid black;
+    color:white;
+}
+
+#sideBar {
+    background-color: #222222;
+    z-index:2;
+    position: fixed;
+    height: 160px;
+    right: 0;
+    top: 185px;
+    width: 100px;
+}
+
+#sideBar > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+#custom-tweet-button {
+    display: block;
+    background: url('tweet.png') 1px center no-repeat;
+  }
+
+.secondLayer{
+    margin: 1px; padding: 0; border:0;
+}
+
+.secondLayer > li {
+    text-align:center;
+    list-style: none;
+    width:100%;
+    margin-left: 0;
+}
+
+.secondLayer > li:hover {
+    text-shadow: 0 2px 2px #4d4d4d;
+    color:orange;
+    background:black;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#currentProjects ul {
+    display:none;
+    float: left;
+}
+#reviews ul {
+    display:none;
+    float: left;
+}
